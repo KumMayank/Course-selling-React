@@ -1,6 +1,6 @@
 const { Router } = require("express");
 
-const userRouter = Router;
+const userRouter = Router();
 
   userRouter.post("/signup", function(req, res){
         res.json({
